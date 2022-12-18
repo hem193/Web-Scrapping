@@ -1,6 +1,7 @@
 const express = require("express");
 const routes = express.Router();
 const main = require("../scrapeFn/scrape");
+
 routes.post("/indeed", async (req, res) => {
   try {
     const { skill } = req.body;

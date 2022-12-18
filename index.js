@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const getRoutes = require("./routes/getRoutes.js");
+const getRoutes = require("./routes/getRoutes");
 
 const PORT = 3001;
 //Middelwares
